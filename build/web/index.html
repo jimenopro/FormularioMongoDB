@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Examen Illuminati</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Examen Illuminati"/>
+        <link rel="stylesheet" href="css/h.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
+        <script type="text/javascript" src="js/js.js"></script>
+        <meta property="og:site_name" content="Examen Illuminati">
+        <meta property="og:title" content="Examen Illuminati">
+        <meta property="og:description" content="Examen Illuminati">
+    </head>
+    <body>
+        <div id="a" class="jumbotron text-center">
+            <center><img src="img/logo.png" class="img-responsive" alt="Iluminati-logo" id="logo"></center>
+            <h1>Examen Iluminati</h1>
+            <div id="b" class="alert">
+                <p>Exámenes Illuminati</p>
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="199999"data-toggle="collapse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand">Illuminati</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="#" id="instrucciones">Instrucciones</a></li>
+                        <li><a href="#" class="notas">Calificaciones</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+            <div tabindex="-1" role="dialog" id="modalIns">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            
+                            <h4 class="modal-title">Instrucciones:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Esto es una prueba de admisión para la sociedad Illuminati, tendrás que realizar uno de los tres exámenes que planteamos clicando los botones que tienes abajo.</p><br>
+                            <p>Examen 1: Examen de preguntas sobre la sociedad Illuminati.</p>
+                            <p>Examen 2: Examen de preguntas sobre geografía.</p>
+                            <p>Examen 3: Examen de preguntas sobre videojuegos.</p><br>
+                            <p>NOTAS:</p><p> En los CheckBox solo hay una respuesta correcta</p>
+                            <p>Los Select multiple se seleccionan presionando "Ctrl"</p>
+                            <p>Las respuestas incorrectas restan</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary notas" data-dismiss="modal">Ver Calificaciones</button>
+                            <button id="boton1" type="button" class="btn btn-primary">Examen 1</button>
+                            <button id="boton2" type="button" class="btn btn-primary">Examen 2</button>
+                            <button id="boton3" type="button" class="btn btn-primary">Examen 3</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        <div id="content">
+        <form>
+            <div id="select1"></div>
+            <div id="radio1" class="form-check"></div>
+            <div id="text1" class="form-group"></div>
+            <div id="checkbox1"class="form-check"></div>
+            <div id="multiple1"></div>
+
+        </form>
+            
+        <div id="botones">
+            DNI: <input type="text" id="dni" placeholder="DNI" size="10"  maxlength="9" name="nif" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" title="Introduzca el dni" required>
+            <button id="corregir">Corregir</button>
+        </div>
+        </div>
+        <footer id="footer">
+            <p>Desarrollado por: Jose Jimeno</p>
+            <p>Contacto: jose.jimeno7@gmail.com</p>
+        </footer>
+    </body>
+</html>
